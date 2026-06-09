@@ -1,0 +1,137 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Doctor AI</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0d1117;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px;
+}
+
+.header h1{
+    color:#00ff88;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+.card{
+    background:#161b22;
+    border-radius:20px;
+    padding:20px;
+    margin:15px 0;
+}
+
+.value{
+    font-size:28px;
+    color:#00ff88;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+button{
+    padding:15px 25px;
+    border:none;
+    border-radius:15px;
+    background:#00ff88;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+.camera{
+    height:250px;
+    border-radius:20px;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#888;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#777;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🌱 Plant Doctor AI</h1>
+    <p>Smart Plant Care System</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Plant Health</h2>
+        <div class="value">Excellent 🌿</div>
+    </div>
+
+    <div class="card">
+        <h2>Temperature</h2>
+        <div class="value">24°C</div>
+    </div>
+
+    <div class="card">
+        <h2>Humidity</h2>
+        <div class="value">72%</div>
+    </div>
+
+    <div class="card">
+        <h2>Light Level</h2>
+        <div class="value">Good ☀️</div>
+    </div>
+
+    <div class="card">
+        <h2>Controls</h2>
+        <div class="buttons">
+            <button>💧 Water</button>
+            <button>🌫 Mist</button>
+            <button>💡 LED</button>
+            <button>🤖 Auto</button>
+            <button>🎮 Manual</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Live Camera</h2>
+        <div class="camera">
+            Camera Feed
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    Plant Doctor AI © 2026
+</div>
+
+</body>
+</html>
